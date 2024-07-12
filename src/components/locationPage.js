@@ -3,7 +3,9 @@ import React from "react";
 function LocationPage() {
 
 
-    return (<></>)
+    return (<>
+        <h1>Location</h1>
+    </>)
 }
 
 export default LocationPage;
