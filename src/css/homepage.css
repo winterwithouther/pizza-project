@@ -1,0 +1,174 @@
+#homepage-banner {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    height: 55vh;
+    /* height: 55vh; */
+    width: 100%;
+    background-image: url("https://images-ext-1.discordapp.net/external/yGiOnBXsCTBDIExRAIRmasZEKa2gswbxv93zA43J4iA/https/img.jakpost.net/c/2017/10/12/2017_10_12_33962_1507805929._large.jpg?format=webp");
+    background-size: cover;
+    
+}
+
+#homepage-banner::before {
+    content: '';
+    position: absolute;
+    
+    top: 0;
+
+    height: 100%;
+    width: 100%;
+    
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(48, 48, 48)); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.664));
+}
+
+#banner-section-1 {
+    display: flex;
+    align-items: center;
+    height: 33%;
+    width: 100%;
+    
+}
+#banner-ad-0 {
+    height: fit-content;
+    width: fit-content;
+    background-color: black;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 3%;
+    padding: 2.5%;
+    transform: rotate(-10deg);
+    color: white;
+    /* text-shadow: 2px 2px 2px black; */
+}
+
+#banner-ad-0-1 {
+    
+    text-decoration: underline;
+}
+
+#banner-section-2 {
+    height: 33%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    
+
+}
+#banner-ad-1 {
+    
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 3%;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    z-index: 1;
+}
+
+#banner-ad-2 {
+    
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 3%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    z-index: 1;
+}
+
+#banner-section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 33%;
+    width: 100%;
+    /* border: 3px solid white; */
+    z-index: 1;
+}
+
+#banner-section-3 button {
+    height: 38%;
+    /* text-align: center; */
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    letter-spacing: .5px;
+    color: white;
+    /* text-shadow: 1px 1px black; */
+    border-radius: 25px;
+    background-color: rgb(97, 161, 37);
+    background-color: rgba(114, 126, 167, 0.418);
+    background-color: rgb(204, 47, 19);
+    cursor: pointer;
+    z-index: 1;
+}
+
+#homepage-deals-section {
+    height: 80vh;
+    width: 100%;
+    /* background-color: orange; */
+}
+
+#homepage-mini-menu {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+#homepage-mini-menu span {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#homepage-footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    height: 13vh;
+    width: 100%;
+    /* background-color: orange; */
+}
+
+#footer-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+
+    width: 85%;
+    /* background-color: rgb(202, 190, 190); */
+    
+}
+
+#footer-buttons-container button {
+    width: fit-content;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 25px;
+
+    background-color: rgb(204, 47, 19);
+    color: white;
+}
+
+#footer-buttons-container button:last-child {
+    color: black;
+    background-color: rgb(252, 252, 252);
+}

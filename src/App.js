@@ -4,7 +4,7 @@ import Homepage from "./components/homePage.js"
 
 function App() {
   return (
-    <div>
+    <div id='pizza-app'>
       <Homepage/>
     </div>
   );
